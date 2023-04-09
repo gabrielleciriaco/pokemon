@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mestre Pokemon</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">                
+    </head>
+
+    <header>
+        <h1>MESTRE POKEMONS</h1>
+        <h2><a href="index.html">Voltar a página inicial</a></h2>
+    </header>
+
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <h3>Cadastro</h3>
+                <form>
+                    <label for="name">Nome do Pokemon:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="datacap">Data da captura</label>
+                    <input type="date" id="datacap" name="datacap" required>
+
+                    <label for="pokebolas">Usou quantas pokebolas?</label>
+                    <input type="text" id="pokebolas" name="pokebolas" required>
+
+                    <fieldset>
+                        <legend>Tipo:</legend>
+                        <select>
+                            <option>Selecione:</option>
+                            <option>Normal</option>
+                            <option>Fogo</option>
+                            <option>Água</option>
+                            <option>Ar</option>
+                            <option>Planta</option>
+                            <option>Elétrico</option>
+                            <option>Gelo</option>
+                        </select>
+                    </fieldset>
+
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
