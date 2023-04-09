@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mestre Pokemon</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">                
+    </head>
+
+    <header>
+        <h1>MESTRE POKEMONS</h1>
+        <h2><a href="cadastro.html">Cadastro de Pokemon</a></h2>
+    </header>
+
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <h3>Cadastro</h3>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="idmestre">Id Mestre</label>
+                    <input type="text" id="idmestre" name="id" required>
+
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <fieldset>
+                        <legend>Região de atuação:</legend>
+                        <select>
+                            <option>Selecione:</option>
+                            <option>Kanto</option>
+                            <option>Johto</option>
+                            <option>Hoenn</option>
+                            <option>Sinnoh</option>
+                            <option>Unova</option>
+                            <option>Kalos</option>
+                        </select>
+                    </fieldset>
+
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+
+            <div class="form-container">
+                <h3>Login</h3>
+                <form>
+                    <label for="idmestre">Id Mestre:</label>
+                    <input type="text" id="idmestre" name="id" required>
+
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
